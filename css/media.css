@@ -1,0 +1,125 @@
+@media(max-width: 970px) {
+
+    .slider__inner::before,
+    .slider__inner::after {
+        width: 0;
+        height: 0;
+    }
+
+    .footer__inner ::before,
+    .footer__inner ::after {
+        width: 0;
+        height: 0;
+    }
+
+}
+
+@media(max-width: 945px) {
+    .advantages__inner {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .advantages__item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .advantages__item:first-child {
+        margin-top: 30px;
+    }
+
+    .works__items {
+        justify-content: flex-start;
+    }
+
+    .works__item {
+
+        margin: 20px 15% 20px 5%;
+
+    }
+}
+
+@media(max-width: 890px) {
+    .footer__inner {
+        flex-wrap: wrap;
+
+    }
+
+    .footer__about {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 780px) {
+    .works__item {
+        margin: 20px 5%;
+    }
+}
+
+@media(max-width: 720px) {
+    .header__menu-btn {
+        display: block;
+    }
+
+    .menu__list {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 3;
+        background-color: #ffffff;
+        border-bottom: 5px solid pink;
+    }
+
+    .list__link-portfolio.portfolio__dropdown {
+        padding: 10px 0;
+    }
+
+    .menu__list-link {
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid blue;
+    }
+
+    .menu__list-link:last-child {
+        border-bottom: 0;
+    }
+
+    .menu__list-link {
+        margin-right: 0px;
+        padding: 10px 0;
+    }
+
+}
+
+@media(max-width: 700px) {
+    .works__item {
+        margin: 10px auto;
+    }
+}
+
+@media(max-width: 650px) {
+    .slider__nav {
+        display: none;
+    }
+}
+
+@media(max-width: 590px) {
+    .footer__item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 500px) {
+
+
+    .slider__item-descr {
+        width: 100%;
+        left: 0px;
+    }
+}
